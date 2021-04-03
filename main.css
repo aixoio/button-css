@@ -1,0 +1,155 @@
+:root {
+  --white: #ffffff;
+  --bark-blue: #222222;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --transition: all 0.3s linear;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+button.box {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--bark-blue);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--bark-blue);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+}
+button.box:hover {
+  color: var(--white);
+  background: #333333;
+}
+button.blue {
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--bark-blue);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  color: var(--white);
+  background: #0d6efd;
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+button.blue:hover {
+  color: var(--white);
+  background-color: #0b5ed7;
+  border-color:#0a58ca
+}
+button.green {
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--bark-blue);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  color: var(--white);
+  background: #198754;
+  border-color: #198754;
+  box-shadow: none;
+}
+button.green:hover {
+  color: var(--white);
+  background-color: #157347;
+  border-color: #146c43;
+}
+button.red {
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--bark-blue);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  color: #dc3545;
+  border-color: #dc3545;
+  box-shadow: none;
+}
+button.red:hover {
+  color: var(--white);
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+button.size {
+  border: none;
+  border-radius: 15px;
+  animation: size 2s infinite;
+  text-transform: uppercase;
+  background-color: rgb(255, 66, 99);
+  font-size: 1rem;
+  transition: all 0.3s linear;
+  color: #000;
+  font-family: monospace, Verdana, sans-serif, serif;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  margin: 0.75rem 1.25rem;
+}
+button.size:hover {
+  color: rgb(255, 66, 99);
+  background-color: #000;
+}
+button.box-back {
+  text-transform: uppercase;
+  background: #49a6e9;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  border: 2px solid #49a6e9;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+  margin-top: 2rem;
+}
+button.box-back:hover {
+  background: transparent;
+  color: #49a6e9;
+}
+button.grey {
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--bark-blue);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  color: var(--white);
+  background-color: #6c757d;
+  border-color: #6c757d;
+  box-shadow: none;
+}
+button.grey:hover {
+  color: var(--white);
+  background-color: #5c636a;
+  border-color:#565e64
+}
+@keyframes size {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
